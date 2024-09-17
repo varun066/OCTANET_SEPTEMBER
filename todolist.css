@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    background-image: url(https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg?w=900);
+    background-size:cover;
+    background-position:top;
+    }
+    
+    header{
+        background: rgba(0, 0, 0, 0.518);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    }
+    
+    header.container{
+    height: 10vh;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    }
+    
+    .logo{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    }
+    
+    .logo img{
+    height: 35px;
+    width:35px;
+    }
+    
+    .logo p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: default;
+    color: white;
+    }
+    
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    nav ul{
+    display: flex;
+    gap:14px;
+    list-style: none;
+    margin-left: 20px;
+    }
+    
+    nav ul li{
+    font-size: 20px;
+    
+    }
+    
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:14px;
+    }
+
+
+.todo-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    color: black;
+    margin:20px auto;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: blue; 
+    
+}
+
+button:hover {
+    color: #216788;
+}
+
+
+
+button.complete-btn:hover {
+    color: green; 
+}
+
+
+.task-list{
+    display: flex;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.todo-container li {
+    display: flex; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.213));
+    background: white;
+    
+}
+
+.task {
+    flex: 1; 
+    flex-grow:1;
+    max-width: 60%; 
+    white-space: normal;
+
+}
+
+.todo-container li div{
+    display: flex;
+    gap: 10px;
+}
+
+
